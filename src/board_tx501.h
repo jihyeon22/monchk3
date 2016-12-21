@@ -20,11 +20,11 @@
 // cron argument
 // ----------------------------
 #define CROND_RUN_INTERVAL_MIN1	    5
-#define CROND_RUN_PROG_NAME1 	    "chkprog2"
-#define CROND_RUN_PROG_ARG1 	    "-c emer2"
+#define CROND_RUN_PROG_NAME1 	    "chkprog3"
+#define CROND_RUN_PROG_ARG1 	    "-c emer3"
 
 #define CROND_RUN_INTERVAL_MIN2	    5
-#define CROND_RUN_PROG_NAME2 	    "chkprog2"
+#define CROND_RUN_PROG_NAME2 	    "chkprog3"
 #define CROND_RUN_PROG_ARG2 	    "-c mon"
 
 

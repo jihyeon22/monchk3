@@ -35,13 +35,13 @@ CFLAGS	+=
 LDFLAGS	+= 
 
 MONCHK_SRC	:= src/monchk.c
-CHKPROG_SRC	:= src/chkprog2.c
+CHKPROG_SRC	:= src/chkprog3.c
 
 MONCHK_OBJ = $(MONCHK_SRC:.c=.o)
 CHKPROG_OBJ = $(CHKPROG_SRC:.c=.o)
 
-APP1	:= monchk2
-APP2	:= chkprog2
+APP1	:= monchk3
+APP2	:= chkprog3
 
 define checkver
 ifeq ($$(VER),0)

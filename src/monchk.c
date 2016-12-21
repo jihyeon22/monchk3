@@ -86,7 +86,7 @@ void run_crond()
     // reset?
 	if(!f_tmp) 
 	{
-		mds_api_poweroff_and_log("emer2", "canot fork crond");
+		mds_api_poweroff_and_log("emer3", "canot fork crond");
 	}
 }
 //====================================================

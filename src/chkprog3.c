@@ -142,7 +142,7 @@ int main(int argc, char* argv[])
     
     if ( ret == 0 )
     {
-        mds_api_poweroff_and_log("chkprog2", "cannot run prog");
+        mds_api_poweroff_and_log("chkprog3", "cannot run prog");
     }
     
     return 0;
